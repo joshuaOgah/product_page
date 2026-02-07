@@ -1,6 +1,7 @@
 # Frontend Mentor Project
-This project is a solution to a challenge from Frontend Mentor
 Live Demo: https://joshuaogah.github.io/product_page/
+
+This project is a solution to a challenge from Frontend Mentor.
 
 ## Overview
 This was built to practice my front-end skills (HTML, CSS and JavaScript) using a real-world design which was provided by Frontend Mentor.
