@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+}
+
+.cart-icon {
+  color: black;
+}
+
+.two-column-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14rem;
+}
+
+.two-column-grid .column-2 {
+  align-self: center;
+}
+
+/*************************************************************************/
+
+header {
+  display: flex;
+  max-width: 140rem;
+  margin: 0 auto;
+  margin-bottom: 10rem;
+  height: 15rem;
+  border-bottom: solid 0.5px rgb(212, 212, 212);
+}
+
+.navigation-bar {
+  display: flex;
+  gap: 60rem;
+  align-items: center;
+}
+
+.logo {
+  font-size: 3rem;
+}
+
+.nav--1 {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+}
+
+.nav--2 {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+}
+
+.nav-link--containter {
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+}
+
+.navigation--link:link,
+.navigation--link:visited {
+  text-decoration: none;
+  color: rgb(128, 128, 128);
+}
+
+.navigation--link:hover,
+.navigation--link:active {
+  padding-bottom: 6.3rem;
+  border-bottom: 4px solid hsl(26, 100%, 55%);
+}
+
+.user--avatar {
+  width: 5rem;
+}
+
+.user--avatar img {
+  width: 100%;
+}
+
+/****************************************************************/
+
+main {
+  max-width: 114rem;
+  margin: 0 auto;
+}
+
+.column-1 img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product-img--container {
+  margin-bottom: 1.5rem;
+}
+
+.thumbnail-images {
+  display: flex;
+  gap: 5rem;
+}
+
+.product-items {
+  width: 9rem;
+  cursor: pointer;
+}
+
+.product-items img {
+  width: 100%;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-bottom: 1.5rem;
+  color: grey;
+}
+
+h3 {
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+
+.product--description {
+  color: gray;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+}
+
+.product--pricing {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.current--price {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.discount {
+  background-color: black;
+  color: white;
+  padding: 0.2rem 1rem;
+  border-radius: 4px;
+}
+
+.former-price {
+  color: rgb(128, 128, 128);
+  margin-bottom: 3rem;
+  text-decoration: line-through;
+  font-weight: 700;
+}
+
+.add-to-cart:link,
+.add-to-cart:visited {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  background-color: hsl(26, 100%, 55%);
+  padding: 1.6rem 5rem;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+.item--counter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsl(223, 64%, 98%);
+  width: 15rem;
+  padding: 1.7rem 1rem;
+  border-radius: 1rem;
+}
+
+.stepper {
+  width: 1rem;
+}
+
+.stepper img {
+  width: 100%;
+}
+
+input {
+  margin: 10rem 0;
+}
+
+.carousel {
+  position: relative;
+  width: 50rem;
+}
+
+.carousel img {
+  width: 100%;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
+
+.increase-item {
+  cursor: pointer;
+}
+.decrease-item {
+  cursor: pointer;
+}
